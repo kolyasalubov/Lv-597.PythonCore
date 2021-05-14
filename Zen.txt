@@ -1,4 +1,4 @@
-!!!Zen of Python!!!
+﻿!!!Zen of Python!!!
 
 1.
 2.
@@ -7,7 +7,7 @@
 5.
 6.
 7.
-8.
+8.Special cases aren't special enough to break the rules.
 9.
 10.
 11.
