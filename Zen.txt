@@ -3,6 +3,8 @@
 1.Beautiful is better than ugly.
 2.
 3.
+4.
+5.Flat is better than nested.
 4.Complex is better than complicated.
 5.
 6.
