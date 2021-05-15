@@ -16,5 +16,6 @@
 14. Although that way may not be obvious at first unless you're Dutch.
 15. Now is better than never.
 16. Although never is often better than *right* now.
+26. Readability counts.
 27. Special cases aren't special enough to break the rules.
 28. Although practicality beats purity.
