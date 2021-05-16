@@ -17,3 +17,4 @@
 15. Now is better than never.
 16. Although never is often better than *right* now.
 28. Although practicality beats purity.
+29. Errors should never pass silently.
