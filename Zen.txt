@@ -18,6 +18,7 @@
 16. Although never is often better than *right* now.
 17. If the implementation is hard to explain, it's a bad idea.
 21. Explicit is better than implicit.
+23. Complex is better than complicated.
 24. Flat is better than nested.
 26. Readability counts.
 27. Special cases aren't special enough to break the rules.
