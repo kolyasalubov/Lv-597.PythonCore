@@ -27,3 +27,4 @@
 27. Special cases aren't special enough to break the rules.
 28. Although practicality beats purity.
 29. Errors should never pass silently.
+30. Unless explicitly silenced.
