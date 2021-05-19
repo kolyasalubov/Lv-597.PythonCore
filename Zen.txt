@@ -29,3 +29,4 @@
 28. Although practicality beats purity.
 29. Errors should never pass silently.
 30. Unless explicitly silenced.
+31. If the implementation is easy to explain, it may be a good idea.
