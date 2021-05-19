@@ -29,3 +29,5 @@
 28. Although practicality beats purity.
 29. Errors should never pass silently.
 30. Unless explicitly silenced.
+31.In the face of ambiguity, refuse the temptation to guess.
+32.
