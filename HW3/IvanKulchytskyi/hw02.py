@@ -31,12 +31,13 @@ while temp_number > 0:
 
 
 # 3)
-
-
+entered_number_list.sort()
+sorted_number_string = ''.join( entered_number_list )
 
 print( "\nNumber:", entered_number_as_string, 
        "\n1) Multiplication:", digits_multiplication,
        "\n2.1) Reverse:", reverse_number1,
        "\n2.2) Reverse:", reverse_number2,
-       "\n2.3) Reverse:", reverse_number3
+       "\n2.3) Reverse:", reverse_number3,
+       "\n3) Sorted:", sorted_number_string
 )
