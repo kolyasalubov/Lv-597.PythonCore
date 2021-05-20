@@ -31,7 +31,7 @@ Namespaces are one honking great idea -- let's do more of those!
 """ 
 
 # task 1
-# like C/Java formatin one love
+# formating like C/Java - one love
 word_better_count = python_philosophy_string.count( "better" )
 word_never_count = python_philosophy_string.count( "never" )
 word_never_is = python_philosophy_string.count( "is" )

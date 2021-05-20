@@ -21,7 +21,7 @@ entered_number_list.reverse()
 reverse_number1 = ''.join( entered_number_list )
 #  2.2) string slice
 reverse_number2 = ''.join( entered_number_as_string[::-1] )
-#  2.3) with arifmetic 
+#  2.3) with arithmetic 
 reverse_number3 = 0
 temp_number = entered_number
 while temp_number > 0:
