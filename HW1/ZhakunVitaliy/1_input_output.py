@@ -1,0 +1,13 @@
+user_name = input("Please, enter your name below: \n")
+print(f"Hello, {user_name}!")
+user_surname = input("Please, enter your surname below: \n")
+print(f"Nice to meet you, {user_name} {user_surname}!")
+age = int(input("How old are you? \n"))
+print(f"{user_name} {user_surname}, you are {age} years old. Thus, in 3 years you will be {age + 3} years old.")
+user_location = input("Where do you live? \n")
+print(f"{user_name} {user_surname}, you live in {user_location}.")
+print()
+s = "SUMMARY".center(70, "=")
+print(s)
+print(f"Your name is {user_name} {user_surname}. You are {age} years old and you live in {user_location}.")
+
