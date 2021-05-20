@@ -20,5 +20,5 @@ else:
 
     list1 = [i for i in num1]
     list1.sort()
-    print("Your sort number: ", list1)
-
+    separator = ', '
+    print("Your sort number: ", separator.join(list1))
