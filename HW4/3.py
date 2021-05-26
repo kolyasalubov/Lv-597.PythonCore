@@ -20,3 +20,14 @@ else:
 
 #Тепер правильне домашнє:)
 
+number_fibonacci = int(input("How many Fibonacci figures do you want?:   "))
+num1 = 0
+num2 = 1
+count = 0
+while count < number_fibonacci:
+    print(num1,'\n____________')
+    final_num = num1 + num2
+    num1 = num2
+    num2 = final_num
+    count +=1
+
