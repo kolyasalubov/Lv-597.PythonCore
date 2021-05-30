@@ -1,0 +1,3 @@
+# Task zoo body tail
+def correct_tail(body, tail):
+    return  body[-1] == tail[0] 
