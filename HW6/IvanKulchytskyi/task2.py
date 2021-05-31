@@ -11,9 +11,9 @@ def get_user_input_numeric(message):
             return False
 
     while True:
-        entered_choice_as_string = input(message)
-        if isfloat(entered_choice_as_string):
-            return float(entered_choice_as_string)
+        user_choice_as_string = input(message)
+        if isfloat(user_choice_as_string):
+            return float(user_choice_as_string)
 
 
 def get_function(index):
@@ -23,7 +23,7 @@ def get_function(index):
         return lambda a, b : a * b
     elif index == 2:  # triangle
         return lambda a, h : 1/2 * a * h
-    elif index == 3:  # circle 
+    elif index == 3:  # circle
         return lambda r: r ** 2 * PI
 
 
@@ -42,7 +42,7 @@ def get_params(index):
 #  Main program
 ##################
 while True:
-    user_choice = get_user_input_numeric("\nWhat do you want to calculate" + 
+    user_choice = get_user_input_numeric("\nWhat do you want to calculate" +
                                             "\n\t 1 - area of ​​a rectangle:" +
                                             "\n\t 2 - area of ​​a triangle:" +
                                             "\n\t 3 - area of a circle:" +
