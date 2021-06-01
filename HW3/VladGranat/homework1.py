@@ -43,11 +43,11 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 '''
-result1 = Zen.find("better")
+result1 = Zen.count("better")
 print ("better:", result1)
-result2 = Zen.find("never")
+result2 = Zen.count("never")
 print ("never:", result2)
-result3 = Zen.find("is")
+result3 = Zen.count("is")
 print ("is:", result3)
 
 print (Zen.upper())
