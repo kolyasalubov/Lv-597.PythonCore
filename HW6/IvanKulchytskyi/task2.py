@@ -1,7 +1,12 @@
 PI = 3.14
 def get_user_input_numeric(message):
-    """ Просить в користувача зробити ввід з повідомленням з message
-    повертає число або False
+    """ Asks user to input number.
+    Repeats until correct float entered.
+
+    Args:
+        message (str): Text to display at the prompt string.
+    Returns:
+        float: Entered number.
     """
     def isfloat(value):
         try:
@@ -17,7 +22,7 @@ def get_user_input_numeric(message):
 
 
 def get_function(index):
-    """ Повертає правильну функцію в залежності від вибору користувача
+    """ Returns proper function to execute depending on the index
     """
     if index == 1:    # rectangle
         return lambda a, b : a * b
@@ -28,14 +33,14 @@ def get_function(index):
 
 
 def get_params(index):
-    """ Запитує в користувача потрібну к-ть параметрів і повертає їх
+    """ Returns entered arguments depending on the index
     """
     if index == 1:    # rectangle
-        return get_user_input_numeric("\tдовжина першої сторони:"), get_user_input_numeric("\tдовжина другої сторони:")
+        return get_user_input_numeric("\tEnter the lenght:"), get_user_input_numeric("\tEnter the width:")
     elif index == 2:  # triangle
-        return get_user_input_numeric("\tдовжина сторони трикутника:"), get_user_input_numeric("\tвисота трикутника:")
+        return get_user_input_numeric("\tEnter the length of the base:"), get_user_input_numeric("\tEnter the height:")
     elif index == 3:  # circle
-        return get_user_input_numeric("\tрадіус кола:"),
+        return get_user_input_numeric("\tEnter the radius of circle:"),
 
 
 ##################
@@ -43,9 +48,9 @@ def get_params(index):
 ##################
 while True:
     user_choice = get_user_input_numeric("\nWhat do you want to calculate" +
-                                            "\n\t 1 - area of ​​a rectangle:" +
-                                            "\n\t 2 - area of ​​a triangle:" +
-                                            "\n\t 3 - area of a circle:" +
+                                            "\n\t 1 - area of the rectangle:" +
+                                            "\n\t 2 - area of ​​the triangle:" +
+                                            "\n\t 3 - area of the circle:" +
                                             "\n\tOther number to exit." +
                                             "\nMake your choice:"
     )
