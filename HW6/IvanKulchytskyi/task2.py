@@ -23,9 +23,6 @@ def get_user_input_numeric(message):
 
 def get_function(index):
     """ Returns proper function to execute depending on the index
-
-        Returns:
-            function: Function
     """
     if index == 1:    # rectangle
         return lambda a, b : a * b
@@ -37,9 +34,6 @@ def get_function(index):
 
 def get_params(index):
     """ Returns entered arguments depending on the index
-
-        Returns:
-            tuple: Entered arguments
     """
     if index == 1:    # rectangle
         return get_user_input_numeric("\tEnter the lenght:"), get_user_input_numeric("\tEnter the width:")
