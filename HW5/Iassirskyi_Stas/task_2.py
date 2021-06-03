@@ -6,8 +6,6 @@ while True:
         break
     elif login == check_login:
         print(f'Welcome back {login}')
-        continue
     elif login != check_login:
         print('The login is invalid')
-        continue
 
