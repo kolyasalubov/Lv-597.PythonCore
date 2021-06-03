@@ -43,7 +43,7 @@ while True:
 
     elif choice == '1':
         a = int(input('Enter a lenght of first side: '))
-        b = int(input('Enter a lenght of first side: '))
+        b = int(input('Enter a lenght of second side: '))
         print(f'Square of rectangle: {square_of_rectangle(a, b)}')
         continue
 
