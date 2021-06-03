@@ -6,3 +6,4 @@ def create_array(n):
         i = i + 1
 
     return res
+
