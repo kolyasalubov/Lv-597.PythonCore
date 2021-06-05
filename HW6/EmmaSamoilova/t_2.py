@@ -1,6 +1,9 @@
 class UnknownFigure(Exception):
     def __init__(self, figure):
-        message = f'Unknown figure {figure}'
+        self.message = f'Unknown figure {figure}'
+
+    def __str__(self):
+        return self.message
 
 def find_square_figure(figure, *args):
     def square_triangle(a, b):
@@ -19,5 +22,4 @@ def find_square_figure(figure, *args):
         raise UnknownFigure(figure)
     print(f'square {figure} = {square_figure}')
     return square_figure
-
 
