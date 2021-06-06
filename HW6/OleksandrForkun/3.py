@@ -2,7 +2,13 @@
 
 
 def count_characters(some_string: str):
-    return len(''.join(some_string.split()))
+    result = {}
+    for item in some_string:
+        if item in result:
+            continue
+        else:
+            result.update({str(item): some_string.count(item)})
+    return result
 
 
 # test funcs
