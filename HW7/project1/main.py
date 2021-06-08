@@ -13,3 +13,5 @@ while True:
     lol = m.password1(input("Input pass: "))
 
 
+#Help
+#IF pass is correct, I don't know how to return line 17 in module.py
