@@ -7,5 +7,9 @@ print(""" At least 1 letter between [a-z] and 1 letter between [A-Z].
           Minimum length 6 characters.
           Maximum length 16 characters. """)
 
-lol = m.password(input("Input pass: "))
+
+
+while True:
+    lol = m.password1(input("Input pass: "))
+
 
