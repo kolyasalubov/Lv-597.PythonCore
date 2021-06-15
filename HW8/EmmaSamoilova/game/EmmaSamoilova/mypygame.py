@@ -29,7 +29,7 @@ while run:
             if player_position[0] in x_range and player_position[1] in y_range:
                 draw_text(screen, ORANGE_COLOR, message, 30, WIDTH_DISPLAY / 2, HEIGHT_DISPLAY/2)
             pygame.display.update()
-            pygame.time.delay(1000)
+            pygame.time.delay(2000)
     clock.tick(FPS)
 
 
