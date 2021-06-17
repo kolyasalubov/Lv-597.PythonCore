@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}
+New post
+{% endblock %}
+
+{% block body %}
+<div class="c_article">
+    <div class="bigtext">New post</div>
+    <form action="/create_article"></form>
+    <form method="post">
+        <input type="text" name="title" class="form-control-input" placeholder="Insert title"><br>
+        <textarea name="intro" id = "intro" class="form-control-intro" placeholder="Insert short description"></textarea><br>
+        <textarea name="text" id = "text" class="form-control-text" placeholder="Insert main text"></textarea><br>
+        <input type="submit" class="grbutton" value="Upload">
+    </form>
+</div>
+{% endblock %}

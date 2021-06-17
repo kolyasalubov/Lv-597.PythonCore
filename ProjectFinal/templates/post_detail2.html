@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="static/icons/favicon2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <div class="menu__fixed">
+        <a href="/" class="start__logo"><img src="/static/img/mainlogo1.png" width="188px" height="60px" alt="logo"></a>
+        <a href="/create-article" class="ytbutton">Upload new material</a>
+    </div>
+    <div class="left__bar">
+        <a href="/posts" class="my__mods">My posts and files</a>
+        <div class="modlist__left">
+            <a href ="/" class="blockmod"><img src="static/img/screen1.jpg" width="340px" height="188px">Some item 1</a>
+            <a href ="/" class="blockmod"><img src="static/img/screen1.jpg" width="340px" height="188px">Some item 2</a>
+            <a href ="/" class="blockmod"><img src="static/img/screen1.jpg" width="340px" height="188px">Some item 3</a>
+            <a href ="/" class="blockmod"><img src="static/img/screen1.jpg" width="340px" height="188px">Some item 4</a>
+            <a href ="/" class="blockmod"><img src="static/img/screen1.jpg" width="340px" height="188px">Some item 5</a>
+        </div>
+    </div>
+    <div class="c_article">
+        <div class="postbox">
+            <h1>{{ article.title }}</h1>
+
+            <p>{{ article.text }}</p>
+            <p><b>Date: {{ article.date.date() }}</b></p>
+            <div class="flexsides">
+                <a href="/posts/{{ article.id }}/edit" class="btn-def">Edit</a>
+                <a href="/posts/{{ article.id }}/delete" class="btn-red">Delete</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
