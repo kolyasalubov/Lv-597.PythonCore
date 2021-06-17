@@ -12,7 +12,7 @@ class Human:
         print("\033[31m {}".format(text))
 
     def greeting(self):
-        print('Hello ' + self.name + '! You are a ' + colored(self.text, 'blue') + ' !')
+        cprint('Hello ' + self.name + '! You are a ' + colored(self.text, 'blue') + ' !')
         return 'Hello '+self.name+'! You are a '+colored(self.text, 'green')+' !'
 
     @classmethod
