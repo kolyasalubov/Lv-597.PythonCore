@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>{% block title %}Leaderboard{% endblock %}</title>
+    {% block styles %}
+        {{ bootstrap.load_css() }}
+    {% endblock %}   
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <h1 class="navbar-brand">Leaderboard</h1>
+          <span class="navbar-toggler-icon"></span>
+        </div>
+    </nav>
+      
+    {%block content%}{%endblock%}
+
+
+    </body>
+</html>
